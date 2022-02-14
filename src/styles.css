@@ -1,0 +1,133 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    font-family:'Hind Siliguri', sans-serif;
+    font-size: 1em;
+    width: 100%;
+}
+.brand span{
+    color: aquamarine;}
+    .brand{
+        float: left;
+    }
+    
+        
+    
+    .navegacion{
+        background-color: rgba(41, 35, 9, 0.623);
+        padding: 1em 5em; 
+        border-bottom: aquamarine solid;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width:100%;
+        font-size: 1em;
+        
+        
+    }
+    .nav-link{
+        color: cornsilk;
+        
+    }
+    .navbar-brand{
+        color: cornsilk;   
+        pointer-events: none;
+    }
+    
+    
+    .presentacion{
+        background-color: rgba(41, 35, 9, 0.623);
+        width: 100%;
+        margin: 0 auto;
+        padding: 15.625em 6.25em  ;
+        text-align: center;
+        color: cornsilk;
+        margin-right: 100%;
+    }
+    .presentacion span{
+        color: aquamarine;
+    }
+    .presentacion p{
+        margin-top: 0.9375rem;
+       
+    }
+    .presentacion button{
+        border: none;
+        padding: 0.4375rem 1.25rem;
+        border-radius: 1.25rem;
+        background-color: aquamarine;
+        margin-top:3px;
+        box-shadow: 1px 3px 11px -5px rgba(81, 238, 201, 0.69);
+        cursor: pointer; 
+    }
+    .presentacion button:hover{
+        background-color: #fff;
+        transition: .5s;  
+    }
+
+    #contacto{
+        background-color: rgba(41, 35, 9, 0.904);
+        padding: 1.5625rem 6.25rem 3.125rem 6.25rem;
+
+    }
+
+.mail{
+    position: absolute;
+   
+    
+   text-align:justify ;
+    color: cornsilk;}
+      
+.list-group{
+    float: right; 
+}
+
+.Sobremi{
+    margin: 0 auto;
+   border-top: aquamarine solid;
+   background-color: rgba(41, 35, 9, 0.623);
+padding: 15.625rem;
+color: cornsilk;
+}
+.habi{
+
+    text-align: left;
+    display: inline-block;
+
+}
+.imacode{
+    width:15em;
+height: 15em;}
+    .bio{
+        margin-top: -3.125rem;
+        margin-left: -8em;
+        display: flex;
+        text-align: left;
+
+    }
+   .biobio{
+       margin-top: 3.4375rem;
+       margin-left: 1.25rem;
+   }
+   .ski{
+       margin-top: 1.875rem;
+    
+   }
+   
+   @media (max-width: 1199.98px) {  body{
+    font-size: 14px;
+} }
+  
+@media (max-width: 991.98px) { body{
+    font-size: 12px;}
+   }
+  
+   @media (max-width: 767.98px) { body{
+    font-size: 10px; }
+}
+@media (max-width: 500.98px) { body{
+    font-size: 8px;
+ }
+.main{
+    width: 100px;
+}
+}
